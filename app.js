@@ -18,7 +18,10 @@ app.get("/", function(req, res){ //first parameter is the path, / which means th
 //post data to mailchimp server through mailchimp API
 app.post("/", function(req, res){
   var name = req.body.myName;
-  //console.log(name);
+  var a1=req.body.q1;
+  console.log(name);
+  console.log(a1);
+
   var data={
     
   }
